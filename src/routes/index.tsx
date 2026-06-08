@@ -61,11 +61,11 @@ function Index() {
       {/* QUICK CONTACT STRIP */}
       <section className="border-b border-border bg-cream">
         <div className="mx-auto grid max-w-7xl gap-4 px-4 py-6 sm:grid-cols-3 sm:px-6 lg:px-8">
-          <a href="tel:+33600000000" className="flex items-center gap-3 text-sm font-bold text-night hover:text-brand">
-            <Phone className="h-5 w-5 text-brand" /> +33 6 00 00 00 00
+          <a href="tel:+33668031012" className="flex items-center gap-3 text-sm font-bold text-night hover:text-brand">
+            <Phone className="h-5 w-5 text-brand" /> +33 6 680 31 012 / +33 6 59 056 743
           </a>
-          <a href="mailto:contact@lydeacommunication.fr" className="flex items-center gap-3 text-sm font-bold text-night hover:text-brand">
-            <Mail className="h-5 w-5 text-brand" /> contact@lydeacommunication.fr
+          <a href="mailto:contact@m2alogistique.fr" className="flex items-center gap-3 text-sm font-bold text-night hover:text-brand">
+            <Mail className="h-5 w-5 text-brand" /> contact@m2alogistique.fr
           </a>
           <p className="flex items-center gap-3 text-sm font-bold text-night">
             <MapPin className="h-5 w-5 text-brand" /> {t("contact_hours_v")}

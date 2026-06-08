@@ -14,7 +14,7 @@ export function ContactForm() {
     const body = encodeURIComponent(
       `Nom: ${fd.get("name")}\nE-mail: ${fd.get("email")}\nTéléphone: ${fd.get("phone")}\n\n${fd.get("message")}`,
     );
-    window.location.href = `mailto:contact@m2a-logistique.fr?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@m2alogistique.fr?subject=${subject}&body=${body}`;
     setSent(true);
   }
 

@@ -3,6 +3,9 @@ import { useState } from "react";
 import { PageShell, PageHero } from "@/components/PageShell";
 import { useI18n } from "@/lib/i18n";
 
+const QUOTE_EMAIL_TO = import.meta.env.DEV ? "slkfoibe.mahera@gmail.com" : "contact@m2alogistique.fr";
+const QUOTE_EMAIL_SUBJECT = import.meta.env.DEV ? "[TEST] Demande de devis" : "Demande de devis";
+
 export const Route = createFileRoute("/devis")({
   head: () => ({
     meta: [
@@ -26,7 +29,7 @@ function DevisPage() {
     const body = encodeURIComponent(
       `Type: ${fd.get("type")}\nDépart: ${fd.get("from")}\nDestination: ${fd.get("to")}\nVolume/poids: ${fd.get("volume")}\nDate: ${fd.get("date")}\n\nNom: ${fd.get("name")}\nE-mail: ${fd.get("email")}\nTéléphone: ${fd.get("phone")}\n\nMessage:\n${fd.get("message")}`,
     );
-    window.location.href = `mailto:contact@m2a-logistique.fr?subject=${encodeURIComponent("Demande de devis")}&body=${body}`;
+    window.location.href = `mailto:${QUOTE_EMAIL_TO}?subject=${encodeURIComponent(QUOTE_EMAIL_SUBJECT)}&body=${body}`;
     setSent(true);
   }
 

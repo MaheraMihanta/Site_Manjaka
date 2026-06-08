@@ -1,4 +1,4 @@
-import logo from "@/assets/Logo1.svg";
+import logo from "@/assets/m2a-logo.png";
 
 type LogoProps = {
   variant?: "dark" | "light";

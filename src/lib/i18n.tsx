@@ -90,6 +90,12 @@ const FR: Dict = {
 
   legal_title: "Mentions légales",
   privacy_title: "Politique de confidentialité",
+  legal_info_title: "Informations légales",
+  legal_form_label: "Forme juridique",
+  legal_siret_label: "N° SIRET",
+  legal_rcs_label: "RCS",
+  legal_ape_label: "APE",
+  legal_registered_office_label: "Siège social",
 
   footer_tagline: "Transport léger, livraison express et logistique sur-mesure.",
   footer_rights: "Tous droits réservés.",
@@ -185,6 +191,12 @@ const EN: Dict = {
 
   legal_title: "Legal notice",
   privacy_title: "Privacy policy",
+  legal_info_title: "Legal information",
+  legal_form_label: "Legal form",
+  legal_siret_label: "SIRET no.",
+  legal_rcs_label: "RCS",
+  legal_ape_label: "APE code",
+  legal_registered_office_label: "Registered office",
 
   footer_tagline: "Light freight, express delivery and tailor-made logistics.",
   footer_rights: "All rights reserved.",
