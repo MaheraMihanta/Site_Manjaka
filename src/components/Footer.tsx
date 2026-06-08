@@ -14,7 +14,7 @@ export function Footer() {
           <Logo variant="light" />
           <p className="mt-4 max-w-sm text-sm text-white/70">{t("footer_tagline")}</p>
           <div className="mt-6 space-y-2 text-sm text-white/80">
-            <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand" /> +33 6 68 031 012 / +33 6 59 056 743</p>
+            <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand" /> +33 6 68 03 10 12 / +33 6 59 05 67 43</p>
             <p className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand" /> contact@m2alogistique.fr</p>
             <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand" /> 6 rue Charles de Gaulle, 49460 Montreuil-Juigné</p>
           </div>

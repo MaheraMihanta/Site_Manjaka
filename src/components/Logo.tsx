@@ -1,12 +1,13 @@
-import logo from "@/assets/m2a-logo.png";
+import logo from "@/assets/Fichier 10@3x.png";
 
 type LogoProps = {
   variant?: "dark" | "light";
   className?: string;
   size?: "regular" | "large";
+  showText?: boolean;
 };
 
-export function Logo({ variant = "dark", className = "", size = "regular" }: LogoProps) {
+export function Logo({ variant = "dark", className = "", size = "regular", showText = true }: LogoProps) {
   const textColor = variant === "light" ? "text-white" : "text-night";
   const sizing = {
     regular: {
@@ -34,10 +35,12 @@ export function Logo({ variant = "dark", className = "", size = "regular" }: Log
         width={sizing.intrinsic}
         height={sizing.intrinsic}
       />
-      <div className="flex flex-col leading-none">
-        <span className={`font-black tracking-tight ${sizing.title} ${textColor}`}>M2A</span>
-        <span className={`italic ${sizing.subtitle} ${variant === "light" ? "text-white/80" : "text-night/70"}`}>Logistique</span>
-      </div>
+      {showText && (
+        <div className="flex flex-col leading-none">
+          <span className={`font-black tracking-tight ${sizing.title} ${textColor}`}>M2A</span>
+          <span className={`italic ${sizing.subtitle} ${variant === "light" ? "text-white/80" : "text-night/70"}`}>Logistique</span>
+        </div>
+      )}
     </div>
   );
 }

@@ -19,7 +19,7 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   const { t, lang } = useI18n();
   const items = [
-    { i: Phone, l: t("contact_phone"), v: "+33 6 680 31 012 / +33 6 59 056 743" },
+    { i: Phone, l: t("contact_phone"), v: "+33 6 68 03 10 12 / +33 6 59 05 67 43" },
     { i: Mail, l: t("contact_email"), v: "contact@m2alogistique.fr" },
     { i: MapPin, l: t("contact_address"), v: "6 rue Charles de Gaulle, 49460 Montreuil-Juigné" },
     { i: Clock, l: t("contact_hours"), v: t("contact_hours_v") },

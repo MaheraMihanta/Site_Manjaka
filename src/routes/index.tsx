@@ -62,7 +62,7 @@ function Index() {
       <section className="border-b border-border bg-cream">
         <div className="mx-auto grid max-w-7xl gap-4 px-4 py-6 sm:grid-cols-3 sm:px-6 lg:px-8">
           <a href="tel:+33668031012" className="flex items-center gap-3 text-sm font-bold text-night hover:text-brand">
-            <Phone className="h-5 w-5 text-brand" /> +33 6 680 31 012 / +33 6 59 056 743
+            <Phone className="h-5 w-5 text-brand" /> +33 6 68 03 10 12 / +33 6 59 05 67 43
           </a>
           <a href="mailto:contact@m2alogistique.fr" className="flex items-center gap-3 text-sm font-bold text-night hover:text-brand">
             <Mail className="h-5 w-5 text-brand" /> contact@m2alogistique.fr

@@ -25,7 +25,7 @@ function LegalPage() {
             <p><strong>RCS :</strong> RCS ANGERS 102668886.</p>
             <p><strong>Code APE :</strong> 4941B.</p>
             <p><strong>Siège social :</strong> 6 rue Charles de Gaulle, 49460 Montreuil-Juigné.</p>
-            <p><strong>Contact :</strong> contact@m2alogistique.fr — +33 6 680 31 012 / +33 6 59 056 743.</p>
+            <p><strong>Contact :</strong> contact@m2alogistique.fr — +33 6 68 03 10 12 / +33 6 59 05 67 43.</p>
             <p><strong>Directeur de la publication :</strong> Direction M2A Logistique.</p>
             <p><strong>Hébergement :</strong> Site hébergé sur infrastructure cloud sécurisée.</p>
             <p><strong>Propriété intellectuelle :</strong> L'ensemble des contenus (textes, logos, images) est protégé. Toute reproduction est interdite sans autorisation préalable.</p>
@@ -37,7 +37,7 @@ function LegalPage() {
             <p><strong>RCS:</strong> RCS ANGERS 102668886.</p>
             <p><strong>APE code:</strong> 4941B.</p>
             <p><strong>Registered office:</strong> 6 rue Charles de Gaulle, 49460 Montreuil-Juigné.</p>
-            <p><strong>Contact:</strong> contact@m2alogistique.fr — +33 6 680 31 012 / +33 6 59 056 743.</p>
+            <p><strong>Contact:</strong> contact@m2alogistique.fr — +33 6 68 03 10 12 / +33 6 59 05 67 43.</p>
             <p><strong>Publication director:</strong> M2A Logistique management.</p>
             <p><strong>Hosting:</strong> Secure cloud infrastructure.</p>
             <p><strong>Intellectual property:</strong> All content is protected. No reproduction without prior authorization.</p>
