@@ -11,7 +11,7 @@ export function Footer() {
     <footer className="bg-night text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4 lg:px-8">
         <div className="md:col-span-2">
-          <Logo variant="light" />
+          <Logo variant="light" showText={false} />
           <p className="mt-4 max-w-sm text-sm text-white/70">{t("footer_tagline")}</p>
           <div className="mt-6 space-y-2 text-sm text-white/80">
             <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand" /> +33 6 68 03 10 12 / +33 6 59 05 67 43</p>
